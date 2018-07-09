@@ -1,0 +1,21 @@
+{
+  "name": "ts29-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production bolt workspaces exec --only-fs \"{packages/package-a,packages/package-b}\" -- tsc --project ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bolt": {
+    "workspaces": ["packages/*"]
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
+  }
+}

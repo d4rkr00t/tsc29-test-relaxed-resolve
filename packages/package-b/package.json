@@ -1,0 +1,18 @@
+{
+  "name": "package-b",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
+  },
+  "dependencies": {
+    "package-a": "0.0.1"
+  }
+}
